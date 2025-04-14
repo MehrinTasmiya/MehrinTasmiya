@@ -1,0 +1,14 @@
+import turtle
+
+turtle.speed(0)
+turtle.bgcolor("black")
+
+colors = ["red", "blue", "green", "yellow", "orange", "purple","light blue","pink"]
+
+for i in range(40):
+    turtle.color(colors[i % 8])
+    turtle.circle(200)
+    turtle.left(20)
+
+turtle.hideturtle()
+turtle.done()
